@@ -1,5 +1,19 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.12.5
+
+### Patch Changes
+
+- dad481793: add default branch property for publish GitLab, Bitbucket and Azure actions
+- 62c2f10f7: Added filesystem remove/rename built-in actions
+- c2db794f5: add defaultBranch property for publish GitHub action
+- 253136fba: removing mandatory of protection for the default branch, that could be handled by the GitHub automation in async manner, thus throwing floating errors
+- Updated dependencies
+  - @backstage/integration@0.5.8
+  - @backstage/catalog-model@0.9.0
+  - @backstage/backend-common@0.8.5
+  - @backstage/catalog-client@0.3.16
+
 ## 0.12.4
 
 ### Patch Changes
